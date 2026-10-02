@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateY="7">
+        <!-- звезда -->
+        <path
+            android:fillColor="#FFC83D"
+            android:strokeColor="#B36B00"
+            android:strokeWidth="1"
+            android:strokeLineJoin="round"
+            android:pathData="M54,25 L56.35,30.76 L62.56,31.22 L57.8,35.24 L59.29,41.28 L54,38 L48.71,41.28 L50.2,35.24 L45.44,31.22 L51.65,30.76 Z" />
+        <!-- тень номера -->
+        <path
+            android:fillColor="#55000000"
+            android:pathData="M29,46.5 H79 A4,4 0 0 1 83,50.5 V66.5 A4,4 0 0 1 79,70.5 H29 A4,4 0 0 1 25,66.5 V50.5 A4,4 0 0 1 29,46.5 Z" />
+        <!-- золотой корпус номера -->
+        <path
+            android:fillColor="#F7CF55"
+            android:strokeColor="#8A5E00"
+            android:strokeWidth="1"
+            android:pathData="M29,45 H79 A4,4 0 0 1 83,49 V65 A4,4 0 0 1 79,69 H29 A4,4 0 0 1 25,65 V49 A4,4 0 0 1 29,45 Z" />
+        <!-- чёрная рамка -->
+        <path
+            android:strokeColor="#0E0E12"
+            android:strokeWidth="1.6"
+            android:pathData="M30.5,48 H77.5 A2.5,2.5 0 0 1 80,50.5 V63.5 A2.5,2.5 0 0 1 77.5,66 H30.5 A2.5,2.5 0 0 1 28,63.5 V50.5 A2.5,2.5 0 0 1 30.5,48 Z M68,48 V66" />
+        <!-- символы номера -->
+        <path
+            android:fillColor="#0E0E12"
+            android:pathData="M31,52 h3.6 v10 h-3.6 z M36.5,52 h3.6 v10 h-3.6 z M42,52 h3.6 v10 h-3.6 z M47.5,52 h3.6 v10 h-3.6 z M53,52 h3.6 v10 h-3.6 z M58.5,52 h3.6 v10 h-3.6 z M71,52 h3 v6 h-3 z M75,52 h3 v6 h-3 z" />
+    </group>
+</vector>
